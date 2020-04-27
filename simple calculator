@@ -1,0 +1,19 @@
+print("this is calculator program")
+calc = float (input("what number would you first like to input: "))
+operator = input("Enter operator ")
+num2 = float (input("Enter second number "))
+if operator == "+":
+    ans = (calc + num2)
+    print(ans)
+if operator == "-":
+    ans = (calc - num2)
+    print(ans)
+if operator == "/":
+    ans = (calc / num2)
+    print(ans)
+if operator == "*":
+    ans = (calc * num2)
+    print(ans)
+if operator == "^":
+    ans = (calc ** num2)
+    print(ans)
